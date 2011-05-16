@@ -1,0 +1,5 @@
+pygments: true
+lsi: true
+layout: default
+paginate: 5
+

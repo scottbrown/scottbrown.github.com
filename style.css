@@ -1,0 +1,18 @@
+body {
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #333333;
+  font-size: 75%;
+}
+
+body h2 {
+  color: #595959;
+  font-family: 'Yanone Kaffeesatz', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 3.2em;
+  font-weight: 300;
+  line-height: 1em;
+  margin-bottom: 0.3em;
+  padding-top: 35px;
+  background: url("/images/divider.png") 0 0 repeat-x;
+}
+

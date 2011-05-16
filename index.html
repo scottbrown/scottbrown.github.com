@@ -5,3 +5,23 @@ title: Scott Brown's Github Page
 
 Welcome.
 
+This is my development blog for various projects and clients that I work with.
+
+{% for post in paginator.posts %}
+  <h2><a href="/{{ post.url }}">{{ post.title }}</a></h2>
+  <em>Posted on {{ post.date | date_to_long_string }}.</em>
+
+  {{ post.content }}
+{% endfor %}
+
+{% if paginator.previous_page %}
+  <a href="/page{{ paginator.previous_page }}">Previous Page</a>
+{% else %}
+  Previous Page
+{% endif %} 
+| 
+{% if paginator.next_page %}
+  <a href="/page{{ paginator.next_page }}">Next Page</a>
+{% else %}
+  Next Page
+{% endif %}
